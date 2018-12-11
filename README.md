@@ -1,2 +1,2 @@
-# libRTTTL_Tunes_Plus
-libRTTTL_Tunes_Plus for Arduino
+# libRTTTL_flash
+libRTTTL_flash for Arduino
