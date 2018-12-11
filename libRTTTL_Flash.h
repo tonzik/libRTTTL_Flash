@@ -2,8 +2,8 @@
  * 
  *  libRTTTL_Flash.h
  *
- *  Kirjasto libRTTTL_Tunes on luotu seuraavien tietojen ja koodien perusteella:
- *  The libRTTTL_Tunes library was made based on the following data and code:
+ *  Kirjasto libRTTTL_Flash on luotu seuraavien tietojen ja koodien perusteella:
+ *  The libRTTTL_Flash library was made based on the following data and code:
  *  
  *        https://www.instructables.com/id/RTTL-Tunes-on-arduino/
  * 
@@ -20,16 +20,16 @@
  * 
  */
 
-#ifndef libRTTTL_Tunes_h
-#define libRTTTL_Tunes_h
+#ifndef libRTTTL_Flash_h
+#define libRTTTL_Flash_h
 
 #include <Arduino.h>
 
-class libRTTTL_Tunes {
+class libRTTTL_Flash {
 
 	public:
   
-    	libRTTTL_Tunes(int);
+    	libRTTTL_Flash(int);
 
     	void playTuneNumber(int);
     	bool play_RTTTL(char *p);
