@@ -31,7 +31,7 @@ int           auto_play = true;
 
 // Määritetään buzzerin pinni Arduinoille
 // Define buzzer pin
-libRTTTL_Tunes player(A2);
+libRTTTL_Flash player(A2);
 int           cur_song=0;
 int           num_songs = countof(string_table);
 int           song_delay = 10000;
