@@ -1,2 +1,2 @@
-# libRTTTL_flash
-libRTTTL_flash for Arduino
+# libRTTTL_Flash
+libRTTTL_Flash for Arduino
