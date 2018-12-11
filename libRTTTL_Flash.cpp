@@ -3,7 +3,7 @@
  *  libRTTTL_Flash.cpp
  *
  *  Kirjasto libRTTTL_Flash on luotu seuraavien tietojen ja koodien perusteella:
- *  The libRTTTL_Tunes library was made based on the following data and code:
+ *  The libRTTTL_Flash library was made based on the following data and code:
  *  
  *        https://www.instructables.com/id/RTTL-Tunes-on-arduino/
  * 
@@ -37,13 +37,13 @@ int notes[] = { 0,
 #define isdigit(n) (n >= '0' && n <= '9')
 
 
-libRTTTL_Tunes::libRTTTL_Tunes(int tonePin) {
+libRTTTL_Flash::libRTTTL_Flash(int tonePin) {
 
 	_tonePin 	=	tonePin;
 }
 
 
-bool libRTTTL_Tunes::play_RTTTL(char *p) {
+bool libRTTTL_Flash::play_RTTTL(char *p) {
 	// Absolutely no error checking in here
 
 	byte default_dur = 4;
